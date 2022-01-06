@@ -1,0 +1,402 @@
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #555;
+
+  /* font-family: 'Lato', sans-serif;
+    font-family: 'COCOGOOSE', sans-serif; */
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+}
+
+header {
+  background-image: url("images/about-bg.png");
+  background-position: 56% 23%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #f7f7f7;
+}
+
+.menu-links {
+  display: none;
+}
+
+.hamb {
+  padding: 1.2rem 1.3rem;
+  width: 5rem;
+}
+
+nav > img {
+  width: 1.5rem;
+}
+
+h2 {
+  color: #ec5242;
+  text-align: center;
+}
+
+/* header{
+  text-align: center;
+} */
+h1 {
+  text-transform: uppercase;
+  font-family: 'COCOGOOSE', sans-serif;
+  padding: 20px 10px;
+  font-size: 1.9em;
+  font-weight: 700;
+  color: #ec5242;
+  text-align: center;
+}
+
+.header-text {
+  padding: 20px;
+  border: 3.5px solid #fff;
+  background-color: #f7f7f7;
+  margin: 5px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.pls {
+  text-align: center;
+  padding: 1.2rem;
+}
+
+.bulza-email {
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+  padding-bottom: 1.2rem;
+}
+
+.past {
+  text-align: center;
+  padding: 0 20px;
+}
+
+.past-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.past-one {
+  margin: 0 20px 50px 20px;
+  position: relative;
+  color: white;
+  background-image: url('images/past1.jpg');
+  min-height: 157px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  box-shadow: inset 0 0 0 2000px rgba(255, 0, 0, 0.438);
+}
+
+main > h2 {
+  color: #272a31;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 20px 0;
+}
+
+.past > h2 {
+  color: #272a31;
+  margin: 20px 0;
+}
+
+.past-p {
+  margin-top: 20px;
+}
+
+.past-text {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+
+.past-text h2 {
+  font-family: 'COCOGOOSE', sans-serif;
+  font-weight: 500;
+  color: white;
+}
+
+.past-two {
+  margin: 0 20px 50px 20px;
+  position: relative;
+  color: white;
+  background-image: url('images/past2.jpg');
+  min-height: 157px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  box-shadow: inset 0 0 0 2000px rgba(255, 0, 0, 0.438);
+}
+
+.main-line {
+  width: 8%;
+  height: 2px;
+  background-color: #ec5242;
+  margin: 15px 0;
+  margin: 0 auto;
+}
+
+main {
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.list-normal {
+  border: 2px solid #f0f0f0;
+  padding: 2rem;
+  margin: 2rem;
+}
+
+.list-normal li {
+  line-height: 1.4;
+  font-size: 1.2rem;
+  list-style: disc;
+}
+
+.partner {
+  background-color: #414246;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.partner h2 {
+  color: #d3d3d3;
+  margin-bottom: 20px;
+  padding-top: 30px;
+}
+
+.partner-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-weight: 600;
+  font-size: 20px;
+  color: #8d8d8d;
+
+  /* padding: 20px 0; */
+}
+
+.partner-logos img {
+  margin: 1rem;
+  width: 20%;
+  height: auto;
+}
+
+#logo1 {
+  /* width:5rem; */
+
+  /* height:2.7rem; */
+}
+
+#logo2 {
+  /* width:6rem; */
+
+  /* height:6rem; */
+  color: white;
+}
+
+#logo3 {
+  /* width:5rem;
+  height:5rem; */
+  color: white;
+}
+
+#logo4 {
+  /* width:5rem;
+  height:5rem; */
+  color: white;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2rem 2rem;
+}
+
+/* .footer-container-content {
+
+} */
+
+.footer-img-mobile {
+  width: 2.7rem;
+  height: 2.7rem;
+  margin-right: 1.5rem;
+}
+.hidden{
+  display: none;
+}
+@media screen and (min-width: 768px) {
+.navbar-d {
+  display: flex;
+  justify-content: flex-end;
+  border: brown;
+  background-color: black;
+}
+
+.navbar-d div {
+  color: #d3d3d3;
+  padding:0.3rem 1rem;
+  cursor:pointer;
+}
+
+.menu-button {
+  display:none;
+}
+
+#dNav{
+  background-color: white;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  display:inline-block;
+  width:3rem;
+  height:3rem;
+  margin-right:8rem;
+  cursor:pointer;
+}
+
+.menu-links {
+display: flex;
+justify-content: flex-end;
+
+
+}
+.menu-links a {
+text-decoration: none;
+cursor:pointer;
+padding:20px;
+color:#555
+}
+.navT {
+  box-sizing: border-box;
+  border: 5px solid #ec5242;
+  color: #ec5242;
+    padding: 15px!important;
+    
+}
+.hide{
+  display: none;
+}
+
+footer{
+  background-color: #272a31;
+  color:#d3d3d3;
+}
+
+.footer-img-mobile {
+  width: 2.7rem;
+  height: 2.7rem;
+  margin-right: 1.5rem;
+}
+
+.footer-container-content{
+  display: flex;
+  padding-right:5px;
+  padding-top:10px;
+}
+
+.footer-container-content p{
+  padding-right:8px;
+}
+.footer-container{
+display: flex;
+justify-content: baseline;
+padding:2rem;
+}
+
+.list-normal{
+  max-width: 58%;
+  margin: 10px auto;}
+
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom:50px;
+}
+.numbers p{
+
+  padding:20px 0;
+  text-align: center;
+  width:70%;
+}
+
+.past-container{
+display: flex;
+flex-direction: row;
+padding:50px 50px;
+gap:3rem;
+
+}
+
+.past-container div{
+flex: 0 0 50%;
+max-width: 45%;
+min-height:195px;
+
+}
+.past-two{
+  margin: 0 ;
+}
+
+.past-one{
+  margin:0;
+}
+
+.past-text {
+  position: absolute;
+  top: 81%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+
+.head-title{
+  padding-top:90px;
+}
+
+.header-background{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header-text{
+  width:70%;
+  background-color: white;
+}
+
+.pls {
+  padding-top:50px;
+  padding-bottom:0;
+  }
+
+.bulza-email{
+padding-bottom: 100px;
+}
+
+.menu-button{
+  align-self: flex-start;
+  
+  
+}
