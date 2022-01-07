@@ -23,7 +23,7 @@ body {
 }
 
 header {
-  background-image: url("images/tijs-van-leur-So6YckShOVA-unsplash.jpg");
+  background-image: url("images/festival-about.jpg");
   /* background-position: 56% 23%; */
   background-size: cover;
   background-position: center;
@@ -56,7 +56,7 @@ h1 {
   text-transform: uppercase;
   font-family: "COCOGOOSE", sans-serif;
   padding: 20px 10px;
-  font-size: 1.9em;
+  font-size: 2.9em;
   font-weight: 700;
   color: #ec5242;
   text-align: center;
@@ -75,6 +75,7 @@ h1 {
   text-align: center;
   padding: 1.2rem 1.2rem 0 1.2rem;
   line-height: 1.6;
+  color:#d3d3d3;
 }
 
 .bulza-email {
@@ -83,6 +84,7 @@ h1 {
   text-align: center;
   padding-bottom: 3rem;
   line-height: 1.6;
+  color:#d3d3d3;
 }
 
 .past {

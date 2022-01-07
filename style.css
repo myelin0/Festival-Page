@@ -12,7 +12,6 @@ html {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   color: #555;
-
 }
 
 body {
@@ -46,7 +45,7 @@ body {
 }
 
 .contain-head {
-  background-image: url("images/concert.jpg");
+  background-image: url("images/festival.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 1rem 1rem 5rem 1rem;
@@ -78,7 +77,7 @@ h1 {
   text-transform: uppercase;
   font-family: "COCOGOOSE", sans-serif;
   padding: 20px 0;
-  font-size: 1.9em;
+  font-size: 2.9em;
   font-weight: 700;
   color: #ec5242;
 }
