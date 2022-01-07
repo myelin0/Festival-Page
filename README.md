@@ -2,7 +2,7 @@
 
 # Project Name
 
-> Festival Page
+> Festival-Page
 
 ![screenshot](images/screenshotD.png)
 
@@ -18,13 +18,11 @@ This festival page is my first try at building a web page with HTML/CSS & JavaSc
 
 [Live Demo Link](https://myelin0.github.io/Capstone/index.html)
 
-
 ## Getting Started
 
 To get a local copy up and running clone the repo below:
 
 https://github.com/myelin0/Capstone
-
 
 ## Author
 
@@ -47,17 +45,17 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Hat tip to anyone whose code was used
-Font Awesome 
+  Font Awesome
 
 - Inspiration
-https://unsplash.com/photos/So6YckShOVA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
-https://unsplash.com/photos/hzgs56Ze49s?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
-https://www.facebook.com/BulzaEntertainment/
-https://www.facebook.com/antez.azimut
-http://tiranaartlab.org/en
-https://www.facebook.com/diversanti79
-https://www.ctm-festival.de/
-https://birrakorca.com.al/
+  https://unsplash.com/photos/So6YckShOVA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+  https://unsplash.com/photos/hzgs56Ze49s?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+  https://www.facebook.com/BulzaEntertainment/
+  https://www.facebook.com/antez.azimut
+  http://tiranaartlab.org/en
+  https://www.facebook.com/diversanti79
+  https://www.ctm-festival.de/
+  https://birrakorca.com.al/
 
 friends & family
 
