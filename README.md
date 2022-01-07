@@ -16,13 +16,13 @@ This festival page is my first try at building a web page with HTML/CSS & JavaSc
 
 ## Live Demo
 
-[Live Demo Link](https://myelin0.github.io/Capstone/index.html)
+[Live Demo Link](https://myelin0.github.io/Festival-Page/)
 
 ## Getting Started
 
 To get a local copy up and running clone the repo below:
 
-https://github.com/myelin0/Capstone
+https://github.com/myelin0/Festival-Page
 
 ## Author
 
@@ -36,7 +36,7 @@ https://github.com/myelin0/Capstone
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/myelin0/Capstone/issues).
+Feel free to check the [issues page](https://github.com/myelin0/Festival-Page/issues).
 
 ## Show your support
 
@@ -58,7 +58,7 @@ Give a ⭐️ if you like this project!
   https://www.ctm-festival.de/
   https://birrakorca.com.al/
 
-friends & family
+  friends & family
 
 - etc
 
