@@ -47,7 +47,6 @@ const container = document.querySelector('.feature-container');
 for (let k = 0; k < cards.length; k += 1) {
   const featureProject = document.createElement('div');
   featureProject.className = 'featWrap';
-  console.log(featureProject)
   let featureContent = '';
   featureContent = `
 <div class="feature">

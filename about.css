@@ -12,9 +12,6 @@ html {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   color: #555;
-
-  /* font-family: 'Lato', sans-serif;
-    font-family: 'COCOGOOSE', sans-serif; */
 }
 
 body {
@@ -24,16 +21,11 @@ body {
 
 header {
   background-image: url("images/festival-about.jpg");
-  /* background-position: 56% 23%; */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #f7f7f7;
 }
-
-/* .menu-links {
-  display: none;
-} */
 
 .hamb {
   padding: 1.2rem 1.3rem;
@@ -49,9 +41,6 @@ h2 {
   text-align: center;
 }
 
-/* header{
-  text-align: center;
-} */
 h1 {
   text-transform: uppercase;
   font-family: "COCOGOOSE", sans-serif;
@@ -75,7 +64,7 @@ h1 {
   text-align: center;
   padding: 1.2rem 1.2rem 0 1.2rem;
   line-height: 1.6;
-  color:#d3d3d3;
+  color: #d3d3d3;
 }
 
 .bulza-email {
@@ -84,7 +73,7 @@ h1 {
   text-align: center;
   padding-bottom: 3rem;
   line-height: 1.6;
-  color:#d3d3d3;
+  color: #d3d3d3;
 }
 
 .past {
@@ -112,7 +101,7 @@ h1 {
   color: white;
   background-image: url("images/past1.jpg");
   height: 33vh;
-  cursor:pointer;
+  cursor: pointer;
   background-size: cover;
   background-position: center center;
   width: 100%;
@@ -453,8 +442,6 @@ main {
   .bulza-email {
     padding-bottom: 100px;
   }
-
-
 
   .past > h2 {
     color: #272a31;

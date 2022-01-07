@@ -48,6 +48,7 @@ Give a ⭐️ if you like this project!
   Font Awesome
 
 - Inspiration
+  Original design idea by Cindy Shin in Behance.
   https://unsplash.com/photos/So6YckShOVA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
   https://unsplash.com/photos/hzgs56Ze49s?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
   https://www.facebook.com/BulzaEntertainment/
