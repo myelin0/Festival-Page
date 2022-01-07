@@ -13,8 +13,6 @@ html {
   font-weight: 400;
   color: #555;
 
-  /* font-family: 'Lato', sans-serif;
-    font-family: 'COCOGOOSE', sans-serif; */
 }
 
 body {
@@ -48,7 +46,9 @@ body {
 }
 
 .contain-head {
-  background-image: url("images/mobile-bg.png");
+  background-image: url("images/concert.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 1rem 1rem 5rem 1rem;
 }
 

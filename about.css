@@ -23,9 +23,10 @@ body {
 }
 
 header {
-  background-image: url("images/about-bg.png");
-  background-position: 56% 23%;
-  background-size: contain;
+  background-image: url("images/tijs-van-leur-So6YckShOVA-unsplash.jpg");
+  /* background-position: 56% 23%; */
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   background-color: #f7f7f7;
 }
@@ -96,12 +97,6 @@ h1 {
   position: relative;
   display: flex;
   flex-direction: column;
-
-  /* flex-direction: column; */
-
-  /* flex-wrap: wrap; */
-
-  /* width:100%; */
 }
 
 .past-one {
@@ -115,8 +110,7 @@ h1 {
   color: white;
   background-image: url("images/past1.jpg");
   height: 33vh;
-
-  /* background-repeat: no-repeat; */
+  cursor:pointer;
   background-size: cover;
   background-position: center center;
   width: 100%;
@@ -139,13 +133,6 @@ main > h2 {
   margin-top: 20px;
   line-height: 1.6;
 }
-
-/* .past-text {
-  position: absolute;
-  top: 50%;
-  right: 50%;
-  transform: translate(50%, -50%);
-} */
 
 .past-text h2 {
   font-family: "COCOGOOSE", sans-serif;
@@ -170,6 +157,7 @@ main > h2 {
   box-shadow: inset 0 0 0 2000px rgba(255, 0, 0, 0.438);
   height: 33vh;
   padding-bottom: 25px;
+  cursor: pointer;
 }
 
 .main-line {

@@ -2,7 +2,7 @@
 
 # Project Name
 
-> One paragraph statement about the project.
+> Festival Page
 
 ![screenshot](./app_screenshot.png)
 
