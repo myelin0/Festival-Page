@@ -11,18 +11,9 @@ function closeMenu() {
   overlay.classList.add('hidden');
 };
 
-function check(){
-  overlay.classList.toggle('hidden')
-};
-
 closebtn.addEventListener('click', closeMenu);
 hamburger.addEventListener('click', openMenu);
 
 for (let i = 0; i < common.length; i += 1) {
-  console.log(common[i]);
-  if (common[i].includes("href='index.html'")) {
-    common[i].addEventListener("click", check);
-  } else {
-    common[i].addEventListener("click", closeMenu);
-  }
+  common[i].addEventListener("click", closeMenu);
 };

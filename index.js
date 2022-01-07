@@ -80,6 +80,7 @@ function closeMenu() {
   overlay.classList.add('hidden');
 }
 
+
 closebtn.addEventListener('click', closeMenu);
 hamburger.addEventListener('click', openMenu);
 
