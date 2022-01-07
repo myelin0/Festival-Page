@@ -160,6 +160,7 @@ h4 {
 }
 
 .fImg {
+  object-fit: cover;
   height: 33vh;
   width: 100%;
   padding-bottom: 25px;
