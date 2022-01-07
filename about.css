@@ -30,9 +30,9 @@ header {
   background-color: #f7f7f7;
 }
 
-.menu-links {
+/* .menu-links {
   display: none;
-}
+} */
 
 .hamb {
   padding: 1.2rem 1.3rem;
@@ -242,6 +242,39 @@ main {
 .hidden{
   display: none;
 }
+.overlay {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  background-color: rgba(37, 37, 37, 0.9);
+  overflow-x: hidden;
+ 
+}
+
+.closebtn {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  margin-left: 85%;
+  margin-top: 7%;
+}
+
+.overlay a {
+  padding: 15px;
+  text-decoration: none;
+  display: block;
+  /* transition: 0.3s; */
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 44px;
+  text-align: left;
+  color: #fff;
+}
 @media screen and (min-width: 768px) {
 .navbar-d {
   display: flex;
@@ -259,6 +292,8 @@ main {
 .menu-button {
   display:none;
 }
+
+
 
 #dNav{
   background-color: white;

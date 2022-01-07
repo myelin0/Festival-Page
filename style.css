@@ -238,9 +238,9 @@ h4 {
   display: none;
 }
 
-.menu-links {
+/* .menu-links {
   display: none;
-}
+} */
 
 /*
 .menu-links.show {
@@ -262,7 +262,7 @@ h4 {
   height: 100%;
   width: 100%;
   position: fixed;
-  z-index: 1;
+  z-index: 100;
   left: 0;
   top: 0;
   background-color: rgba(37, 37, 37, 0.9);
@@ -275,14 +275,14 @@ h4 {
   height: 24px;
   cursor: pointer;
   margin-left: 85%;
-  margin-top: -63px;
+  margin-top: 7%;
 }
 
 .overlay a {
   padding: 15px;
   text-decoration: none;
   display: block;
-  transition: 0.3s;
+  /* transition: 0.3s; */
   font-size: 32px;
   font-style: normal;
   font-weight: 450;
@@ -312,7 +312,7 @@ h4 {
   display:none;
 }
 
-#dNav{
+#deskNav{
   background-color: white;
   display:flex;
   justify-content: center;

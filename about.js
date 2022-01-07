@@ -1,24 +1,28 @@
-span
-
-
 /// //hamburger menu///////////////////
 const hamburger = document.querySelector('.menu-button');
 const closebtn = document.querySelector('.closebtn');
-const navmenu = document.querySelector('.menu-links');
+const overlay = document.querySelector('.overlay');
 const common = document.querySelectorAll('.common');
 
-hamburger.addEventListener('click', () => {
-  navmenu.classList.toggle('show');
-});
+function openMenu() {
+  overlay.classList.remove('hidden');
+};
+function closeMenu() {
+  overlay.classList.add('hidden');
+};
 
-closebtn.addEventListener('click', () => {
-  navmenu.classList.remove('show');
-});
+function check(){
+  overlay.classList.toggle('hidden')
+};
+
+closebtn.addEventListener('click', closeMenu);
+hamburger.addEventListener('click', openMenu);
 
 for (let i = 0; i < common.length; i += 1) {
-  common[i].addEventListener('click', () => {
-    navmenu.classList.remove('show');
-  });
-}
-
-
+  console.log(common[i]);
+  if (common[i].includes("href='index.html'")) {
+    common[i].addEventListener("click", check);
+  } else {
+    common[i].addEventListener("click", closeMenu);
+  }
+};

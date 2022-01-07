@@ -1,33 +1,3 @@
-// /// //hamburger menu///////////////////
-// const hamburger = document.querySelector(".menu-button");
-// const closebtn = document.querySelector('.closebtn');
-// const overlay= document.querySelector('.overlay');
-// const common = document.querySelectorAll('.common');
-
-// console.log(hamburger);
-// function openMenu(e){
-//   overlay.classList.remove('hidden')
-//   console.log(e)
-// };
-// function closeMenu(){
-//    overlay.classList.add("hidden");
-// };
-// // hamburger.addEventListener('click', () => {
-// //   navmenu.classList.toggle('show');
-// // });
-
-// // closebtn.addEventListener('click', () => {
-// //   navmenu.classList.remove('show');
-// // });
-// closebtn.addEventListener('click',openMenu);
-// hamburger.addEventListener("click",closeMenu);
-
-// for (let i = 0; i < common.length; i+=1) {
-//   common[i].addEventListener('click', closeMenu)
-//   };
-
-  ///////////Features //////////////////
-
 const cards = [
   {
     img: 'images/antez.jpg',
@@ -76,7 +46,7 @@ const cards = [
 const container = document.querySelector('.feature-container');
 for (let k = 0; k < cards.length; k += 1) {
   const featureProject = document.createElement('div');
-  featureProject.className="featWrap"
+  featureProject.className = 'featWrap';
   let featureContent = '';
   featureContent = `
 <div class="feature">
@@ -91,8 +61,28 @@ for (let k = 0; k < cards.length; k += 1) {
                  </div>
             </div>
 </div>`;
- 
 
   featureProject.innerHTML = featureContent;
   container.appendChild(featureProject);
+}
+
+/// //hamburger menu///////////////////
+const hamburger = document.querySelector('.menu-button');
+const closebtn = document.querySelector('.closebtn');
+const overlay = document.querySelector('.overlay');
+const common = document.querySelectorAll('.common');
+
+function openMenu() {
+  overlay.classList.remove('hidden');
+}
+
+function closeMenu() {
+  overlay.classList.add('hidden');
+}
+
+closebtn.addEventListener('click', closeMenu);
+hamburger.addEventListener('click', openMenu);
+
+for (let i = 0; i < common.length; i += 1) {
+  common[i].addEventListener('click', closeMenu);
 }
