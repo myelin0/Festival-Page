@@ -63,10 +63,9 @@ h1 {
 
 .header-text {
   padding: 20px;
-  margin:20px;
+  margin: 20px;
   border: 3.5px solid #fff;
   background-color: white;
-  margin: 5px;
   line-height: 25px;
   text-align: center;
 }
@@ -83,7 +82,6 @@ h1 {
   text-align: center;
   padding-bottom: 3rem;
   line-height: 1.6;
-
 }
 
 .past {
@@ -93,27 +91,31 @@ h1 {
 
 .past-container {
   margin: 0;
-  gap:2rem;
-  padding:2rem;
+  gap: 2rem;
+  padding: 2rem;
   position: relative;
   display: flex;
   flex-direction: column;
+
   /* flex-direction: column; */
+
   /* flex-wrap: wrap; */
+
   /* width:100%; */
 }
 
 .past-one {
   /* flex: 1 0 100%; */
-   display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
   margin-bottom: 30px;
   padding-bottom: 25px;
   color: white;
   background-image: url("images/past1.jpg");
   height: 33vh;
+
   /* background-repeat: no-repeat; */
   background-size: cover;
   background-position: center center;
@@ -153,11 +155,11 @@ main > h2 {
 
 .past-two {
   /* flex: 1 0 100%; */
-   display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-  margin: 20 20px 50px 20px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  margin-bottom: 50px;
   position: relative;
   color: white;
   background-image: url("images/past2.jpg");
@@ -234,9 +236,11 @@ main {
   height: 2.7rem;
   margin-right: 1.5rem;
 }
+
 .hidden {
   display: none;
 }
+
 .overlay {
   height: 100%;
   width: 100%;
@@ -261,6 +265,7 @@ main {
   padding: 15px;
   text-decoration: none;
   display: block;
+
   /* transition: 0.3s; */
   font-size: 32px;
   font-style: normal;
@@ -271,8 +276,12 @@ main {
 }
 
 .mainParagraph {
-text-align: center;
-margin-top: 1rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.menu-button {
+  align-self: flex-start;
 }
 
 @media screen and (min-width: 768px) {
@@ -312,18 +321,21 @@ margin-top: 1rem;
     display: flex;
     justify-content: flex-end;
   }
+
   .menu-links a {
     text-decoration: none;
     cursor: pointer;
     padding: 20px;
     color: #555;
   }
+
   .navT {
     box-sizing: border-box;
     border: 5px solid #ec5242;
     color: #ec5242;
     padding: 15px !important;
   }
+
   .hide {
     display: none;
   }
@@ -348,9 +360,10 @@ margin-top: 1rem;
   .footer-container-content p {
     padding-right: 8px;
   }
+
   .footer-container {
     display: flex;
-    justify-content: baseline;
+    justify-content: center;
     padding: 2rem;
   }
 
@@ -358,6 +371,7 @@ margin-top: 1rem;
     max-width: 58%;
     margin: 10px auto;
   }
+
   .past-container {
     display: flex;
     flex-direction: row;
@@ -371,6 +385,7 @@ margin-top: 1rem;
     flex-direction: column;
     align-content: center;
     justify-content: center;
+
     /* margin: 20px 20px 50px 20px;
   position: relative;
   color: white;
@@ -383,6 +398,7 @@ margin-top: 1rem;
 
   .past-two {
     /* flex: 0 0 50%; */
+
     /* flex: 1 0 50%; */
     width: 50%;
 
@@ -402,6 +418,7 @@ margin-top: 1rem;
     align-items: center;
     padding-bottom: 50px;
   }
+
   .numbers p {
     padding: 20px 0;
     text-align: center;
@@ -432,6 +449,7 @@ margin-top: 1rem;
     flex-direction: column;
     align-items: center;
   }
+
   .header-text {
     width: 70%;
     background-color: white;
@@ -446,18 +464,10 @@ margin-top: 1rem;
     padding-bottom: 100px;
   }
 
-  .menu-button {
-    align-self: flex-start;
+
+
+  .past > h2 {
+    color: #272a31;
+    margin: 40px 0 20px 0;
   }
-
-.past > h2 {
-  color: #272a31;
-  margin: 40px 0 20px 0;
-}
-
-
-
-
-
-
 }

@@ -282,6 +282,7 @@ h4 {
   padding: 15px;
   text-decoration: none;
   display: block;
+
   /* transition: 0.3s; */
   font-size: 32px;
   font-style: normal;
@@ -312,9 +313,10 @@ h4 {
     display: none;
   }
 
-  .h2{
+  .h2 {
     padding-top: 0;
   }
+
   #deskNav {
     background-color: white;
     display: flex;
@@ -334,12 +336,14 @@ h4 {
     display: flex;
     justify-content: flex-end;
   }
+
   .menu-links a {
     text-decoration: none;
     cursor: pointer;
     padding: 20px;
     color: #555;
   }
+
   .navT {
     box-sizing: border-box;
     border: 5px solid #ec5242;
@@ -379,7 +383,6 @@ h4 {
     border-radius: 25px;
     transition: all 0.25s;
     text-decoration: none !important;
-    margin-bottom: 10px;
     width: auto !important;
     background-color: #ec5242;
     color: #f7f7f7;
@@ -407,6 +410,7 @@ h4 {
     padding-left: 15px;
     font-size: 1.2em;
   }
+
   .time {
     flex: 0 0 8.33333%;
     max-width: 7.33333%;
@@ -417,9 +421,11 @@ h4 {
     flex-direction: column;
     flex: 0 0 8.33333%;
   }
+
   .day-date {
     font-size: 1.5em;
   }
+
   .ticket-wrapper {
     display: flex;
     flex: 0 0 16.66667%;
@@ -429,6 +435,7 @@ h4 {
     padding-right: 15px;
     padding-left: 15px;
   }
+
   .feature-container {
     display: flex;
     flex-wrap: wrap;
@@ -454,6 +461,7 @@ h4 {
     height: 2.7rem;
     margin-right: 1.5rem;
   }
+
   .fa {
     cursor: pointer;
   }
@@ -498,14 +506,11 @@ h4 {
   }
 
   .main-line {
-  width: 6%;
+    width: 6%;
   }
 
-.features-line{
-  margin-top:1rem;
-  width:6%;
+  .features-line {
+    margin-top: 1rem;
+    width: 6%;
+  }
 }
-
-}
-
-

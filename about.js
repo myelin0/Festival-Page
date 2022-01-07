@@ -6,14 +6,14 @@ const common = document.querySelectorAll('.common');
 
 function openMenu() {
   overlay.classList.remove('hidden');
-};
+}
 function closeMenu() {
   overlay.classList.add('hidden');
-};
+}
 
 closebtn.addEventListener('click', closeMenu);
 hamburger.addEventListener('click', openMenu);
 
 for (let i = 0; i < common.length; i += 1) {
-  common[i].addEventListener("click", closeMenu);
-};
+  common[i].addEventListener('click', closeMenu);
+}
