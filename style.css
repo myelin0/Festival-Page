@@ -362,17 +362,15 @@ h4 {
   }
 
   .location {
-    flex: 0 0 16.66667%;
-    max-width: 16.66667%;
     position: relative;
+    flex: 1 0 auto;
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding: 15px;
+    text-align: center;
   }
 
   .running-order {
-    flex: 0 0 50%;
-    max-width: 50%;
+    flex: 0 0 80%;
     position: relative;
     width: 100%;
     padding-right: 15px;
@@ -382,7 +380,6 @@ h4 {
 
   .time {
     flex: 0 0 8.33333%;
-    max-width: 7.33333%;
   }
 
   .theday {
@@ -398,7 +395,6 @@ h4 {
   .ticket-wrapper {
     display: flex;
     flex: 0 0 16.66667%;
-    max-width: 16.66667%;
     position: relative;
     width: 100%;
     padding-right: 15px;
@@ -475,5 +471,15 @@ h4 {
   .features-line {
     margin-top: 1rem;
     width: 6%;
+  }
+
+  .eventWrapper {
+    display: flex;
+    flex-direction: row;
+    margin: 3% 10%;
+  }
+
+  .row-event {
+    margin: 2px;
   }
 }
