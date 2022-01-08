@@ -2,64 +2,41 @@
 
 # Project Name
 
-> One paragraph statement about the project.
+> Festival-Page
 
-![screenshot](./app_screenshot.png)
+![screenshot](images/screenshotD.png)
 
-Additional description about the project and its features.
+This festival page is my first try at building a web page with HTML/CSS & JavaScript.It is the first capstone project in Microverse Curriculum.The festival is fictional ,but the desire to see it coming to life (even just in a website form) motivated me to build it as best I could in the amount of time of 5days.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- JavaScript
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
+[Live Demo Link](https://myelin0.github.io/Festival-Page/)
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+To get a local copy up and running clone the repo below:
 
+https://github.com/myelin0/Festival-Page
 
-To get a local copy up and running follow these simple example steps.
+## Author
 
-### Prerequisites
+👤 **Emirjeta Veisllari**
 
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@myelin0](https://github.com/myelin0)
+- Twitter: [@Amy_Albania](https://twitter.com/Amy_albania)
+- LinkedIn: [@Emirjeta Veisllari](https://www.linkedin.com/in/emirjeta-veisllari/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/myelin0/Festival-Page/issues).
 
 ## Show your support
 
@@ -68,7 +45,21 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Hat tip to anyone whose code was used
+  Font Awesome
+
 - Inspiration
+  Original design idea by Cindy Shin in Behance.
+  https://unsplash.com/photos/So6YckShOVA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+  https://unsplash.com/photos/hzgs56Ze49s?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+  https://www.facebook.com/BulzaEntertainment/
+  https://www.facebook.com/antez.azimut
+  http://tiranaartlab.org/en
+  https://www.facebook.com/diversanti79
+  https://www.ctm-festival.de/
+  https://birrakorca.com.al/
+
+  friends & family
+
 - etc
 
 ## 📝 License
